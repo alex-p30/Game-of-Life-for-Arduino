@@ -1,3 +1,5 @@
+//Modified for the SSD1306-powered 0.96" monochrome OLED displays
+//https://www.adafruit.com/product/326
 #include <Arduino.h>
 #include <Wire.h>
 #include <EasyButton.h> //https://github.com/evert-arias/EasyButton
