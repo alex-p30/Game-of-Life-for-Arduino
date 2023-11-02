@@ -262,7 +262,7 @@ void drawStats() {
     if (EPOCH < 1000) cursor = 3;
     if (EPOCH < 100) cursor = 2;
     if (EPOCH < 10) cursor = 1;
-    u8g2.setCursor(128-(cursor*6), 64);
+    u8g2.setCursor(128-(cursor*6), 64); //Font is 6x13 in size
     u8g2.print(EPOCH); 
   }
 }
