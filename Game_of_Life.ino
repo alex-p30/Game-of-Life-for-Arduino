@@ -16,7 +16,7 @@ bool resetW = false; //Set to true to reset the game.
 uint16_t generation; //Current generation.
 uint16_t currentLiving; //Number of living cells of the currently displayed generation.
 uint16_t nextLiving; //Number of living cells of the next generation.
-uint16_t prevLiving; ////Number of living cells of the next generation.
+uint16_t prevLiving; ////Number of living cells of the previous generation.
 uint16_t sameLivingCount; //Number of generations where the next and current generations or the next and previous generations have the same number of living cells.
 
 void setup() {
